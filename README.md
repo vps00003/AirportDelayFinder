@@ -1,8 +1,6 @@
 
 # AirportDelayFinder
 
-[Check Out the Delay Finder](C:\Users\MISTUser\source\repos\AirportDelayFinder\AirportDelayFinder\Pages)
-
 ## Project Overview
 
 My project in its current phase includes a homepage with some statistics on flight delays & their causes, and the homepage contains a link to my ‘search’ page. In this page the user sees a calendar to select the date they desire and a dropdown of airports to select. There is a search button implemented however it is not functional yet as there is no data to provide the user.
