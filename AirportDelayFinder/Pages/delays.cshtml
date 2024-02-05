@@ -1,0 +1,82 @@
+﻿@page
+@model AirportDelayFinder.Pages.delaysModel
+@{
+}
+
+<html>
+<head>
+    <title>Delay Finder</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="path/to/bootswatch.css">
+    <link rel="stylesheet" href="path/to/custom.css">
+</head>
+<body>
+    <h1 class="h1 glow-text typewriter-heading">This is the Delay Finder!</h1>
+    
+    <br />
+
+    <h2 class="h2 text-black">Use this tool to help anticipate delays</h2>
+    <form>
+        <label for="fltDateInp">Flight Date</label>
+        <input type="date" id="trvDateInp" />
+        <label for="fltDrop">Select your Destination Airport.</label>
+        <select name="trvDrop">
+            <option value="1">Pittsburgh</option>
+            <option value="2">New York </option>
+            <option value="3">Los Angeles</option>
+        </select>
+        <input type="submit" id="submitBtn" value="Search" class="btn myButton" />
+    </form>
+
+    <br />
+
+    <h2 class="h2 text-black">The airports that are most likely to see climate/weather delays.</h2>
+    <table class="reasonTable myTable">
+        <thead>
+            <tr>
+                <td>Cities' airports with the most weather delays</td>
+                <td>Ranking</td>
+            </tr>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td>
+                    New York
+                </td>
+                <td>1</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>
+                    Chicago 
+                </td>
+                <td>2</td>
+            </tr>
+        </tbody>
+        <tbody>
+            <tr>
+                <td>
+                    San Francisco 
+                </td>
+                <td>3</td>
+            </tr>
+        </tbody>
+    </table>
+
+    <br />
+
+    <h2 class="h2 text-black">Climate paterns that may delay your flight.</h2>
+    <ul>
+        <li>Winter Season and Heavy Snowfall</li>
+        <li>Increased Rainfall during Spring </li>
+        <li>High Winds in various seasons </li>
+    </ul>
+
+</body>
+</html>
+
+
+

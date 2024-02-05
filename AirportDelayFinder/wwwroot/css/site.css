@@ -1,0 +1,81 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+.glow-text {
+    font-size: 48px; 
+    color: darkorange; 
+    text-shadow: 0 0 10px rgba(255, 255, 0, 0.8), 0 0 20px rgba(255, 255, 0, 0.8), 0 0 30px rgba(255, 255, 0, 0.8);
+}
+
+.glow-container {
+    box-shadow: 0 0 20px rgba(255, 255, 0, 0.5);
+    padding: 20px; 
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+
+    to {
+        width: 100%;
+    }
+}
+
+.typewriter-heading {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typing 3s steps(30) infinite alternate;
+}
+
+.myTable {
+    border: 6px solid;
+    color: greenyellow;
+    background-color: black;
+    border-style: groove;
+    border-collapse:separate;
+}
+
+    .myTable td,
+    .myTable th {
+        border: 6px solid;
+        color: greenyellow;
+        background-color: black;
+        border-style: groove;
+        padding: 8px;
+    }
+
+.myButton {
+    background-color: #d7327e;
+    color: whitesmoke;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+    .myButton:hover {
+        background-color: #22221d;
+        color: #d7327e;
+    }
+
+body {
+  margin-bottom: 60px;
+  color:black;
+}

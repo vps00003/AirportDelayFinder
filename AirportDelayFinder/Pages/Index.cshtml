@@ -1,0 +1,52 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Home page";
+}
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>Home Page</title>
+    <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="path/to/bootswatch.css">
+    <link rel="stylesheet" href="path/to/custom.css">
+</head>
+<body>
+    <h1 class="h1 glow-text typewriter-heading">Welcome to the Delay Finder</h1>
+
+    <br />
+    <br />
+
+    <h2 class="h2">About this tool</h2>
+    This tool allows you to enter your destination airport and the date of you flight to help you anticipate
+    the likelihood that your flight may be delayed due to climatic/weather conditions, by using NOAA climate data.
+
+    <br />
+    <br />
+
+    <p>
+        <a href="/delays">Access the Delay Predictor Here</a>
+    </p>
+    <script src="lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+
+    <br />
+    <br />
+    <br />
+
+    <h2 style="color: black;">Top Reasons for US Airport Delays</h2>
+    <img src="~/lib/chart.jpg" alt="Reasons" />
+    Source: nationwide.com
+
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+
+    <h2 style="color: black;">Chart of US Cities Whose Airports Experience the Most Delays</h2>
+    <img src="~/lib/top-weather.jpg" alt="Chart" />
+    Source: Federal Aviation Administration [FAA]
+</body>
+</html>
