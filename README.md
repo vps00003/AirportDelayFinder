@@ -32,6 +32,12 @@ This repository seemed to be a more complex version of what I am aiming to do. I
 I may look to utilize some of the work in this repository to create a supporting part of my web app in the future. This repository utilizes airline data to gather what the average delay time at any given airport is. This may be useful in the future as I would be able to implement the average delays experienced at an airport depending on the season it was in. The user has an option to add/drop multiple airports and the data is adjusted respectively which could be useful for me to implement.
 ## Future Enhancements
 In the future I would obviously like to make the search button functional so that a user may enter their date of travel and destination airport and see a result. This would also require the creation of some sort of results display page. I think I would like to keep this new page fairly simple so that the user can easily see their results. I will eventually also need to figure out how to draw the climate data in along with average weather delays based on season so that the results page can have some sort of output. I would also like to move the charts on the homepage to one of the other pages at some point and replace it with the live weather radar map that I discussed above.
+| Objectives                                          | Priorities |
+| --------------------------------------------------- | ---------- |
+| Create results page template                        | Priority 1 |
+| Make search button functional                        | Priority 2 |
+| Make changes to the aesthetic of homepage            | Priority 3 |
+| Incorporate radar map into the homepage              | Priority 3 |
 
 ## Citations
 
