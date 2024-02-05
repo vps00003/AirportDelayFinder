@@ -1,7 +1,7 @@
 
 # AirportDelayFinder
 
-[Check Out the Delay Finder](wwwroot.delays.cshtml)
+[Check Out the Delay Finder](C:\Users\MISTUser\source\repos\AirportDelayFinder\AirportDelayFinder\Pages)
 
 ## Project Overview
 
