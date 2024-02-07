@@ -12,7 +12,7 @@ The homepage of my website is headed by a glowing-typewriter (moves across the s
 
 ### Tool/Search Page
 
-Clicking the link on the homepage that says ‘Access the Delay Predictor Here’ will take you to my second functional page which is the main search page. This page also contains a custom css heading to overlay the bootswatch with the glowing header text that moves across the screen. Below this, I included an interactive calendar option where the user can select their travel date, a dropdown option menu with some sample airports, and a search button (not yet functional as there is no data to send back to the user). The table below this is written off a custom css class as I tried to replicate what an old flight status board would look like with a black background and green text. Finally, the page has a new HTML element in the form of a list of climate patterns that may delay your flight.
+Clicking the link on the homepage that says ‘Access the Delay Predictor Here’ will take you to my second functional page which is the main search page. This page also contains a custom css heading to overlay the bootswatch with the glowing header text that moves across the screen. In the top right, my javascript element is contained with a indicator of the current date. Below this, I included an interactive calendar option where the user can select their travel date, a dropdown option menu with some sample airports, and a search button (not yet functional as there is no data to send back to the user). The table below this is written off a custom css class as I tried to replicate what an old flight status board would look like with a black background and green text. Finally, the page has a new HTML element in the form of a list of climate patterns that may delay your flight.
 
 ## Research Summaries
 
@@ -47,6 +47,8 @@ In the future I would obviously like to make the search button functional so tha
   - "how do i create the glow effect in yellow for my text" I used this prompt to create glowing text
   - "How do i make the glowing text appear in typewriter style" I used this prompt to make the glowing text move across the screen
   - "Why wont my picture show up" I used this prompt to figure out why my picture wouldn't show up
+  - "I have var todayDate = new Date(); to retrieve the current date, but how do I make this display as text on my page?" I used this prompt to ask ChatGPT how to display the current data after I had retrieved it using javascript
+  - "How do I make my CurrentDate show up in the very top right of my screen" I used this prompt to figure out how to get my CurrentDate javascript output to be displayed in the top right of the Delays.cshtml page
 
 ## Reflection on Resources
 

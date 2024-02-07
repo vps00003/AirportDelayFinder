@@ -9,15 +9,26 @@
     <link rel="stylesheet" href="lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="path/to/bootswatch.css">
-    <link rel="stylesheet" href="path/to/custom.css">
+    <link rel="stylesheet" href="path/to/custom.css">'
+    <style>
+        #currentDate {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            font-size: 36px;
+            color: #000000; 
+        }
+    </style>
+
 </head>
 <body>
+    <div id="currentDate">Today's Date: <span id="date"></span></div>
     <h1 class="h1 glow-text typewriter-heading">This is the Delay Finder!</h1>
     
     <br />
 
     <h2 class="h2 text-black">Use this tool to help anticipate delays</h2>
-    <form>
+    <form class="form-check-inline">
         <label for="fltDateInp">Flight Date</label>
         <input type="date" id="trvDateInp" />
         <label for="fltDrop">Select your Destination Airport.</label>
@@ -74,6 +85,12 @@
         <li>Increased Rainfall during Spring </li>
         <li>High Winds in various seasons </li>
     </ul>
+    <script>
+        
+        var todayDate = new Date();
+        var dateElement = document.getElementById("date");
+        dateElement.textContent = todayDate.toDateString();
+    </script>
 
 </body>
 </html>
