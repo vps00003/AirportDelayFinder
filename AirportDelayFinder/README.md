@@ -26,6 +26,4 @@ Flight Information page - if the user has a specific flight time and departure a
 
 General weather advisory information page - this is where the external weather api will be incorporated, users will be able to see information about a few highlighted major airports and the historical weather trends for the specific day they access the site/
 
-### link to API information
-
-[here](DelayFinderAPI/README.md)
+### ACCESS API README FROM MAIN README
