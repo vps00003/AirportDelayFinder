@@ -23,7 +23,7 @@ namespace DelayFinderAPI.Repositories
             var departureTimeParam = new SqlParameter("@DepartureTime", departureTime);
 
             var flights = await _dbContextClass.Flights
-                .FromSqlRaw("EXECUTE searchFlightDelays @DepartureAirportID, @DepartureTime",
+                .FromSqlRaw("exec searchFlightDelays @DepartureAirportID, @DepartureTime",
                     departureAirportIDParam, departureTimeParam)
                 .ToListAsync();
 
