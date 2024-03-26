@@ -1,0 +1,6 @@
+@DelayFinderAPI_HostAddress = http://localhost:5064
+
+GET {{DelayFinderAPI_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
