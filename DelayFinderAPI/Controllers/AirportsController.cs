@@ -6,7 +6,7 @@ namespace DelayFinderAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AirportsController : ControllerBase
+    public class AirportsController : Controller
     {
         private readonly IAirportService _airportService;
 
@@ -21,6 +21,18 @@ namespace DelayFinderAPI.Controllers
             var airportDetails = await _airportService.AddAirport(airport);
             return airportDetails;
         }
+
+        [HttpGet("{airportId}")]
+        public async Task<ActionResult<List<Airport>>> GetAirportDetails(string airportId)
+        {
+            var airportDetails = await _airportService.GetAirportDetails(airportId);
+            if (airportDetails == null || airportDetails.Count == 0)
+            {
+                return NotFound();
+            }
+            return airportDetails;
+        }
+
     }
 
 }

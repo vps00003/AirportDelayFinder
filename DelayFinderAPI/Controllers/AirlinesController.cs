@@ -9,7 +9,7 @@ namespace DelayFinderAPI.Controllers
 {
     [Route("api/[controller]")]
     [ApiController]
-    public class AirlinesController : ControllerBase
+    public class AirlinesController : Controller
     {
         private readonly IAirlineService _airlineService;
 

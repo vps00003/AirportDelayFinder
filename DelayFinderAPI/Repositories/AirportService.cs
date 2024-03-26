@@ -27,6 +27,11 @@ namespace DelayFinderAPI.Repositories
 
             return airportDetails;
         }
+        public async Task<List<Airport>> GetAirportDetails(string airportId)
+        {
+            return await _dbContextClass.GetAirportDetails(airportId);
+        }
+
     }
 
 }
