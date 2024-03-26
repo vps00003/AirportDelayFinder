@@ -1,6 +1,9 @@
 ﻿using DelayFinderAPI.Entities;
 using DelayFinderAPI.Repositories;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.AspNetCore.Mvc.Infrastructure;
+using System.Collections.Generic;
+using System.Threading.Tasks;
 
 namespace DelayFinderAPI.Controllers
 {
@@ -25,7 +28,27 @@ namespace DelayFinderAPI.Controllers
             }
             return AirlineDelayRating;
         }
+
+        [HttpGet("delay-rating-greater-than/{delayRating}")]
+        public async Task<ActionResult<List<Airline>>> GetAirlinesRatingGreaterThan(string delayRating)
+        {
+            var airlines = await _airlineService.GetAirlinesRatingGreaterThan(delayRating);
+            if (airlines == null || airlines.Count == 0)
+            {
+                return NotFound();
+            }
+            return Ok(airlines);
+        }
+        [HttpPost]
+        public async Task<ActionResult<int>> AddAirline(Airline airline)
+        {
+            var airlineDetails = await _airlineService.AddAirline(airline);
+            return airlineDetails;
+        }
+
+
     }
 }
+
 
 

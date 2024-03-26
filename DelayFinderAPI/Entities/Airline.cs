@@ -1,6 +1,4 @@
-﻿using System.ComponentModel.DataAnnotations;
-
-namespace DelayFinderAPI.Entities
+﻿namespace DelayFinderAPI.Entities
 {
     public class Airline
     {
