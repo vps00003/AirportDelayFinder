@@ -2,7 +2,7 @@
 
 ## Link to Project Design Vision
 
-# **APIS**
+# **APIS**: includes description, input, output, and chatgpt prompts
 
 ## /api/Flights/searchDelay - **_VIVEK SRIRAM_**
 ### **Does**?: 
@@ -19,7 +19,7 @@ list that contains the delay time for the users inputted departureAirportID and 
 
 ### **CHAT GPT PROMPT USE**
 
-"I'm continuously getting a 500 error when i try to run this api, can you find the error in my code" I then pasted my code for the api into chat gpt
+"I'm continuously getting a 500 error when i try to run this api, can you find the error in my code" I then pasted my code for the api into chat gpt. It suggested adding some packages to my code, but didnt change any of my actual code. I later figured out the error was in the naming conventions in the database.
 
 ## /api/Airlines/delay-rating-greater-than/{delayRating} - **_VIVEK SRIRAM_**
 ### **Does**?: 
@@ -35,7 +35,7 @@ returns a list of airports that have a delay rating greater than the value input
 
 ### **CHAT GPT PROMPT USE**
 
-I was running into more 500 error issues once the code had compiled, specifically something to do with the await part of the FlightService code, i pasted my code into chat GPT and asked it to find the reason it returned this solution:
+I was running into more 500 error issues once the code had compiled, specifically something to do with the 'await' part of the FlightService code. I had originally based my code on the 2/27 lecture video, but this didn't seem to work. i pasted my code into chat GPT and asked it to find the reason it returned this solution:
 
  var flights = await _dbContextClass.Flights
      .FromSqlRaw("exec searchFlightDelays @DepartureAirportID, @DepartureTime",
@@ -111,7 +111,7 @@ after user enters attributes, new airline can be added to db
 
 ### **CHAT GPT PROMPT USE**
 
-used to convert sqlserver sp code into aspnet
+convert sqlserver sp code into aspnet
 
 ## /api/Airports/ - **_TYLER MCCOY_**
 ### **Does**?: 
@@ -134,10 +134,10 @@ public string AirportAvgYearlyPassengers
 
 public string AirportDestinationCount
 
-### **CHAT GPT PROMPT USE**
-
-Chat Gpt used to change SQL into asp.net for convenience
-
 ### **Output**:
 
 after user enters attributes, new airport can be added to db
+
+### **CHAT GPT PROMPT USE**
+- change SQL into asp.net for api creation
+- 500 error returned when ran on swagger, pasted parts of code to try and find error.
