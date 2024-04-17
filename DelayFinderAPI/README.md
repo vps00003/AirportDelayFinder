@@ -43,7 +43,7 @@ I was running into more 500 error issues once the code had compiled, specificall
      .ToListAsync();
 
      
-## /api/Airline/{AirlineID} - **_TYLER MCCOY_**
+## /api/Airline/{AirlineID} - **_TYLER MCCOY & VIVEK SRIRAM_**
 ### **Does**?: 
 
 retrieves the ratings for a particular airline
@@ -64,7 +64,7 @@ returns a list of airlines, which contain the following attributes:
  
  public string AirlineDelayRating 
 
-## /api/Airports/{AirportID} - **_NOAH ALBERTI_**
+## /api/Airports/{AirportID} - **_NOAH ALBERTI & VIVEK SRIRAM_**
 ### **Does**?: 
 
 retrieves the information about an airport
@@ -88,7 +88,7 @@ public string AirportAvgYearlyPassengers
 
 public string AirportDestinationCount
 
-## /api/airline/ - **_NOAH ALBERTI_**
+## /api/airline/ - **_NOAH ALBERTI & VIVEK SRIRAM_**
 ### **Does**?: 
 
 allows for post of a new airline into system
@@ -113,7 +113,7 @@ after user enters attributes, new airline can be added to db
 
 convert sqlserver sp code into aspnet
 
-## /api/Airports/ - **_TYLER MCCOY_**
+## /api/Airports/ - **_TYLER MCCOY & VIVEK SRIRAM_**
 ### **Does**?: 
 
 allows for post of a new airport into system
