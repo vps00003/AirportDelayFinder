@@ -43,7 +43,7 @@ I was running into more 500 error issues once the code had compiled, specificall
      .ToListAsync();
 
      
-## /api/Airline/{AirlineID} - **_TYLER MCCOY & VIVEK SRIRAM_**
+## /api/Airline/{AirlineID} - **_TYLER MCCOY_**
 ### **Does**?: 
 
 retrieves the ratings for a particular airline
