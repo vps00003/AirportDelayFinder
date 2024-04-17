@@ -1,0 +1,66 @@
+﻿@page
+@model AirportDelayFinder.Pages.FlightCRUD.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].AirlineID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].DepartureAirportID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].DestinationAirportID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].DepartureTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].ArrivalTime)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Flight[0].FlightDelayMinutes)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Flight) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirlineID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureAirportID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DestinationAirportID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DepartureTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.ArrivalTime)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.FlightDelayMinutes)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.FlightID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.FlightID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.FlightID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
