@@ -1,0 +1,60 @@
+﻿@page
+@model AirportDelayFinder.Pages.AirportCRUD.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport[0].CityID)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport[0].AirportName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport[0].AirportRunwayCount)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport[0].AirportAvgYearlyPassengers)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airport[0].AirportDestinationCount)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Airport) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.CityID)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirportName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirportRunwayCount)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirportAvgYearlyPassengers)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirportDestinationCount)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.AirportID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.AirportID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.AirportID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>

@@ -12,5 +12,6 @@ namespace AirportDelayFinder.Data
         {
         }
         public DbSet<DelayFinderAPI.Entities.Airline> Airline { get; set; } = default!;
+        public DbSet<DelayFinderAPI.Entities.Airport> Airport { get; set; } = default!;
     }
 }
