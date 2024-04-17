@@ -1,6 +1,8 @@
 ﻿@page
 @model AirportDelayFinder.Pages.delaysModel
 @{
+    var AirportID = HttpContext.Request.Query["AirportID"];
+
 }
 
 <html>
@@ -19,6 +21,7 @@
             color: #000000; 
         }
     </style>
+
 
 </head>
 <body>

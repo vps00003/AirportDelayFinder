@@ -1,0 +1,48 @@
+﻿@page
+@model AirportDelayFinder.Pages.AirlineCRUD.IndexModel
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1>Index</h1>
+
+<p>
+    <a asp-page="Create">Create New</a>
+</p>
+<table class="table">
+    <thead>
+        <tr>
+            <th>
+                @Html.DisplayNameFor(model => model.Airline[0].AirlineName)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airline[0].AirlineRating)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Airline[0].AirlineDelayRating)
+            </th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+@foreach (var item in Model.Airline) {
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirlineName)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirlineRating)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.AirlineDelayRating)
+            </td>
+            <td>
+                <a asp-page="./Edit" asp-route-id="@item.AirlineID">Edit</a> |
+                <a asp-page="./Details" asp-route-id="@item.AirlineID">Details</a> |
+                <a asp-page="./Delete" asp-route-id="@item.AirlineID">Delete</a>
+            </td>
+        </tr>
+}
+    </tbody>
+</table>
