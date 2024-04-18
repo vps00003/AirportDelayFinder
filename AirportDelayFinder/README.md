@@ -11,16 +11,16 @@ Delay Finder Informational Page - provides background information about main cau
 * VIVEK SRIRAM worked on this page
 
 ### 3
-Flight Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an specific route to the database/site, doesn't integrate an api we created for assignment 4 but we felt that a POST flight api would be a reasonable alternative to include on the site.
-* TYLER MCCOY worked on this page
+Airline Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an airline to the database/site, integrating the POST airports API. Utilized CRUD to allow for incorporation into site.
+* VIVEK SRIRAM worked on this page
 
 ### 4
-Airline Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an airline to the database/site, integrating the POST airports API. Utilized CRUD to allow for incorporation into site.
+Airport Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an airport to the database/site, integrating the POST airports API. Utilized CRUD to allow for incorporation into site.
 * VIVEK SRIRAM worked on this page
   
 ### 5
-Airport Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an airport to the database/site, integrating the POST airports API. Utilized CRUD to allow for incorporation into site.
-* VIVEK SRIRAM worked on this page
+Flight Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an specific route to the database/site, doesn't integrate an api we created for assignment 4 but we felt that a POST flight api would be a reasonable alternative to include on the site.
+* TYLER MCCOY worked on this page
   
 ### 6 (Page concept for future development, since all APIs were not created into razor pages...)
 
