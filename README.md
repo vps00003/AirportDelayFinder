@@ -7,7 +7,8 @@ DelayFinder seeks to keep a "open-source" or collaborative platform in mind with
 
 ## Deployment Guide
 The first step in deployment is making sure the database is loaded in SQLServer. You should take each file from the SQL repository [SEE BELOW] and run them one by one. Start by running the database creation, then the database data, and finally run each of the stored procedures. Then the code by clicking the green button and run it in the visual studio vm.
-IMPORTANT NOTE: You may need to adjust the data source in appsettings.json, for example ``` "DefaultConnection": "Data Source=lab8L4JUY; ``` should reflect the data source that you create the SQL files in.
+
+_IMPORTANT NOTE:_ You may need to adjust the data source in appsettings.json, for example ``` "DefaultConnection": "Data Source=lab8L4JUY; ``` should reflect the data source that you create the SQL files in.
 
 ## Errors?
 If you run in to errors while trying to run any portion of the DelayFinder, please reach out to one of us. Online tools such as Google, StackExchange, or ChatGPT can also be helpful in solving minor problems.
