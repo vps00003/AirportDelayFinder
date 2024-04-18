@@ -1,7 +1,7 @@
 # **DELAYFINDER**
 
 ### IMPORTANT NOTES: 
-PLEASE SEE BELOW TO FIND LINKS TO README DOCUMENTATION FOR ASSIGNMENTS 4 (Design Vision for pages and API documentation)  and 5 (Who worked on what Razor Pages and general non-dynamic pages of the website) RESPECTIVELY. THE LINK TO THE REPOSITORY WITH DATA FROM ASSIGNMENT 3 IS ALSO BELOW.
+Please see below to find links to README documentation for ASSIGNMENT 4 (Design Vision for pages and API documentation) and ASSIGNMENT 5 (Who worked on what Razor Pages and general non-dynamic pages of the website), respectively. The link to the repository that contains the database creation, population, and SP creation is also linked below!
 
 ## App Overview
 This application is designed to be a collaborative travel information platform. Our vision was to create a platform where users can enter their own ratings on the delay performance of specific airlines, airports, and flight routes; therefore, allowing other users to view this information and make informed decisions. Our intial prototype of the platform incorporates several created APIs in order to allow for the collaborative user-entry features of the platform.
