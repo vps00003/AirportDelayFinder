@@ -29,7 +29,7 @@ retrieves list of delay time for a flight leaving a specific airport at a specif
 {departureTime}: assigned departure time to each entry in the flight entity
 
 ### **Output**:
-list that contains the delay time for the users inputted departureAirportID and departureTime
+list that contains the delay time for the given flight based on users inputted departureAirportID and departureTime
 
 ### **CHAT GPT PROMPT USE**
 
