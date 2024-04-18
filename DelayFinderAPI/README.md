@@ -1,6 +1,5 @@
 ﻿# DelayFinder Project Design Vision & API Documentation (who did what)
-## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_, Make sure that you read the way the data is formatted in the DatabaseData very carefully. The formatting of IDs and the value's you are entering are critical to ensuring APIs work as intended.
-
+## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_, Make sure that you read the way the data is formatted in the DatabaseData very carefully. 
 
 ## Project Design Vision Proposed Pages (Potential Designs, not final)
 ### 1 - Home Page 
@@ -17,6 +16,7 @@ This proposed page will allow a user to search using a AirportID and date to fin
 This proposed page will allow a user to search for airlines with a delay rating greater than a value they input, the delay-rating-greater-than/{delayRating} api will look to be used here.
 
 # **APIS**: includes description, input, output, and chatgpt prompts
+## IMPORTANT NOTE: Make sure that you read the way the data is formatted in the DatabaseData very carefully. The formatting of IDs and some fields may differ from the usual style, certain APIs will not work otherwise.
 
 ## /api/Flights/searchDelay - **_VIVEK SRIRAM_**
 ### **Does**?: 
