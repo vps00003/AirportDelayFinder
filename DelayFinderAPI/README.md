@@ -1,6 +1,19 @@
 ﻿# AirportDelayFinder API Development Documentation & Project Design Vision
+# INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION
 
-## Link to Project Design Vision
+## Project Design Vision Proposed Pages
+### 1 - Home Page 
+Home page will provide links to other created pages and will display the name of the application. Will look to include some graphics to make the page have some other content for the user
+### 2 - Delay Finder Informational Page
+Will look to provide background information about main causes of weather related flight delay and potential regions where delays are more likely.
+### 3 - Airline Post Page
+This proposed page will allow a user to input a specific airline into the database using a post api we created
+### 4 - Airport Post Page
+This proposed page will allow a user to input a specific airport into the database using a post api we created
+### 5 - Delay Search Page
+This proposed page will allow a user to search using a AirportID and date to find delays for a specific airport & time, potential utilization of searchdelay api.
+### 6 - Airline Rating Search Page
+This proposed page will allow a user to search for airlines with a delay rating greater than a value they input, the delay-rating-greater-than/{delayRating} api will look to be used here.
 
 # **APIS**: includes description, input, output, and chatgpt prompts
 
