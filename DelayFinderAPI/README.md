@@ -1,4 +1,4 @@
-﻿# DelayFinder API Development Documentation & Project Design Vision
+﻿# DelayFinder Project Design Vision & API Documentation (who did what)
 ## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_
 
 ## Project Design Vision Proposed Pages
