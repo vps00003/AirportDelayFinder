@@ -7,9 +7,9 @@ Home page will provide links to other created pages and will display the name of
 ### 2 - Delay Finder Informational Page including GET Information Page
 Will look to provide background information about main causes of weather related flight delay and potential regions where delays are more likely. Will look to implement our GET APIs in order to allow the user to retrieve information about an Airport or an Airline here. Potential for some sort of drop down functionality allowing user to select from limited selection of airlines and airports in initial prototype.
 ### 3 - Airline Post Page
-This proposed page will allow a user to input a specific airline into the database using a post api we created
+This proposed page will allow a user to input a specific airline into the database using a post api we created. Will utilize the 'CRUD' functionality within razor pages to allow for seamless user entry, deletion, etc.
 ### 4 - Airport Post Page
-This proposed page will allow a user to input a specific airport into the database using a post api we created
+This proposed page will allow a user to input a specific airport into the database using a post api we created. Will utilize the 'CRUD' functionality within razor pages to allow for seamless user entry, deletion, etc.
 ### 5 - Delay Search Page
 This proposed page will allow a user to search using a AirportID and date to find delays for a specific airport & time, potential utilization of searchdelay api.
 ### 6 - Airline Rating Search Page
