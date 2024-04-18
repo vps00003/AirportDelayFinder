@@ -1,11 +1,11 @@
 ﻿# DelayFinder Project Design Vision & API Documentation (who did what)
 ## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_
 
-## Project Design Vision Proposed Pages
+## Project Design Vision Proposed Pages (Potential Designs, not final)
 ### 1 - Home Page 
-Home page will provide links to other created pages and will display the name of the application. Will look to include some graphics to make the page have some other content for the user
-### 2 - Delay Finder Informational Page
-Will look to provide background information about main causes of weather related flight delay and potential regions where delays are more likely.
+Home page will provide links to other created pages and will display the name of the application. Will look to include some graphics to make the page have some other content for the user. Will potentially look to integrate our external api here, hopefully a weather radar type external api.
+### 2 - Delay Finder Informational Page including GET Information Page
+Will look to provide background information about main causes of weather related flight delay and potential regions where delays are more likely. Will look to implement our GET APIs in order to allow the user to retrieve information about an Airport or an Airline here. Potential for some sort of drop down functionality allowing user to select from limited selection of airlines and airports in initial prototype.
 ### 3 - Airline Post Page
 This proposed page will allow a user to input a specific airline into the database using a post api we created
 ### 4 - Airport Post Page
