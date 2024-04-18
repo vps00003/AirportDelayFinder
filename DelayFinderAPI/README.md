@@ -1,5 +1,6 @@
 ﻿# DelayFinder Project Design Vision & API Documentation (who did what)
-## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_
+## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_, Make sure that you read the way the data is formatted in the DatabaseData very carefully. The formatting of IDs and the value's you are entering are critical to ensuring APIs work as intended.
+
 
 ## Project Design Vision Proposed Pages (Potential Designs, not final)
 ### 1 - Home Page 
