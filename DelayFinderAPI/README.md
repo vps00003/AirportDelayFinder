@@ -32,7 +32,7 @@ list that contains the delay time for the users inputted departureAirportID and 
 
 ### **CHAT GPT PROMPT USE**
 
-"I'm continuously getting a 500 error when i try to run this api, can you find the error in my code" I then pasted my code for the api into chat gpt. It suggested adding some packages to my code, but didnt change any of my actual code. I later figured out the error was in the naming conventions in the database.
+"I'm continuously getting a 500 error when i try to run this api, can you find the error in my code" I then pasted my code for the api into chat gpt. It added some packages to my code, and made small changes to syntax in my code it seems. I later figured out the error was mainly in the naming conventions in the database.
 
 ## /api/Airlines/delay-rating-greater-than/{delayRating} - **_VIVEK SRIRAM_**
 ### **Does**?: 
@@ -50,10 +50,10 @@ returns a list of airports that have a delay rating greater than the value input
 
 I was running into more 500 error issues once the code had compiled, specifically something to do with the 'await' part of the FlightService code. I had originally based my code on the 2/27 lecture video, but this didn't seem to work. i pasted my code into chat GPT and asked it to find the reason it returned this solution:
 
- var flights = await _dbContextClass.Flights
+ ```var flights = await _dbContextClass.Flights
      .FromSqlRaw("exec searchFlightDelays @DepartureAirportID, @DepartureTime",
          departureAirportIDParam, departureTimeParam)
-     .ToListAsync();
+     .ToListAsync();```
 
      
 ## /api/Airline/{AirlineID} - **_TYLER MCCOY_**
@@ -78,7 +78,7 @@ returns a list of airlines, which contain the following attributes:
  public string AirlineDelayRating 
  
 ### **CHAT GPT PROMPT USE**
-Used chatgpt to help iron out 500 errors with issues in controller and services
+Used chatgpt to help iron out 500 errors with issues in controller and services by pasting code and asking it to fix errors.
 ## /api/Airports/{AirportID} - **_NOAH ALBERTI_**
 ### **Does**?: 
 
@@ -102,6 +102,8 @@ public string AirportRunwayCount
 public string AirportAvgYearlyPassengers
 
 public string AirportDestinationCount
+### **CHAT GPT PROMPT USE**
+Asked chat gpt to find my errors in code when found them testing the api in swagger.
 
 ## /api/airline/ - **_NOAH ALBERTI_**
 ### **Does**?: 
