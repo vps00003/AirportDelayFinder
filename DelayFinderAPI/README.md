@@ -1,5 +1,5 @@
 ﻿# DelayFinder Project Design Vision & API Documentation (who did what)
-## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_, Make sure that you read the way the data is formatted in the DatabaseData very carefully. 
+## _NOTE: INDIVIDUAL API DOCUMENTATION BELOW PROJECT DESIGN VISION_
 
 ## Project Design Vision Proposed Pages (Potential Designs, not final)
 ### 1 - Home Page 
