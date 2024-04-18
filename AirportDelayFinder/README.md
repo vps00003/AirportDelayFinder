@@ -2,9 +2,9 @@
 
 ## Pages
 
-### 1 - Home Page (**_VIVEK SRIRAM_**)
-Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at.
-* VIVEK SRIRAM worked on this page
+### 1 - Home Page (**_VIVEK SRIRAM_& TYLER MCCOY**)
+Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at. This is where we incorporate our 'collaborate' initiatve for our web design, we persent a message asking users to contribute to the site and then display links to input airports, airlines, and flights into our database.
+* VIVEK SRIRAM and TYLER MCCOY worked on this page
   
 ### 2 - Delay Finder Informational Page (**_VIVEK SRIRAM_**)
 Provides background information about main causes of weather related flight delay and potential regions where delays are more likely. Includes the rudamentary functional design for what the searchdelay api would have looked like on the front end, had it been integrated. Allows the user to select the date using an implemented calendar, and provides a dropdown menu for them to select an airport. These features are not yet functional but they could be used in future development with more time and resources.
