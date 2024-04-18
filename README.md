@@ -8,11 +8,13 @@ The first step in deployment is making sure the database is loaded in SQLServer.
 ## Errors?
 If you run in to errors while trying to run any portion of the DelayFinder, please reach out to one of us. Online tools such as Google, StackExchange, or ChatGPT can also be helpful in solving minor problems.
 
+# REPOSITORY WITH DATABASE CREATION (Assgn 3)
+[Link to Repository with Data Creation files](https://github.com/vps00003/assgn3/blob/main/DatabaseData.sql)
+
 # Razor Page Overview (Assign 5)
 [here](AirportDelayFinder/README.md)
 
 # API README (Assgn 4)
 [here](DelayFinderAPI/README.md)
 
-# Repository with Data Creation to understand formatting of the database used for sps and apis (Assgn 3)
-[Link to Repository with Data Creation files](https://github.com/vps00003/assgn3/blob/main/DatabaseData.sql)
+
