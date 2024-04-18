@@ -2,7 +2,7 @@
 
 ## Pages
 
-### 1 - Home Page (****_VIVEK SRIRAM_ & TYLER MCCOY****__)
+### 1 - Home Page (**VIVEK SRIRAM & TYLER MCCOY**__)
 Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at. This is where we incorporate our 'collaborate' initiatve for our web design, we persent a message asking users to contribute to the site and then display links to input airports, airlines, and flights into our database.
 * VIVEK SRIRAM and TYLER MCCOY worked on this page
   
