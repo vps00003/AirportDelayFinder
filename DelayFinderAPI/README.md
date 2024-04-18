@@ -50,10 +50,10 @@ returns a list of airports that have a delay rating greater than the value input
 
 I was running into more 500 error issues once the code had compiled, specifically something to do with the 'await' part of the FlightService code. I had originally based my code on the 2/27 lecture video, but this didn't seem to work. i pasted my code into chat GPT and asked it to find the reason it returned this solution:
 
- ```var flights = await _dbContextClass.Flights
-     .FromSqlRaw("exec searchFlightDelays @DepartureAirportID, @DepartureTime",
-         departureAirportIDParam, departureTimeParam)
-     .ToListAsync();```
+ ``` var flights = await _dbContextClass.Flights ```
+    ``` .FromSqlRaw("exec searchFlightDelays @DepartureAirportID, @DepartureTime", ```
+        ``` departureAirportIDParam, departureTimeParam) ```
+    ``` .ToListAsync();  ```
 
      
 ## /api/Airline/{AirlineID} - **_TYLER MCCOY_**
