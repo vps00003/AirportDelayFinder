@@ -16,7 +16,7 @@ This proposed page will allow a user to search using a AirportID and date to fin
 This proposed page will allow a user to search for airlines with a delay rating greater than a value they input, the delay-rating-greater-than/{delayRating} api will look to be used here.
 
 # **APIS**: includes description, input, output, and chatgpt prompts
-## IMPORTANT NOTE: Make sure that you read the way the data is formatted in the DatabaseData very carefully. The formatting of IDs and some fields may differ from the usual style, certain APIs will not work otherwise.
+## IMPORTANT NOTE: Make sure that you read the way the data is formatted in the DatabaseData very carefully. The formatting of IDs and some fields may differ from the usual style, testing the APIs will not work if the correct data format is not entered!
 
 ## /api/Flights/searchDelay - **_VIVEK SRIRAM_**
 ### **Does**?: 
