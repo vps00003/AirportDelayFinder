@@ -3,7 +3,8 @@
 ## Pages
 
 ### 1 - Home Page (_**VIVEK SRIRAM & TYLER MCCOY**_)
-Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at. This is where we incorporate our 'collaborate' initiatve for our web design, we persent a message asking users to contribute to the site and then display links to input airports, airlines, and flights into our database.
+Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at. This is where we incorporate our 'collaborate' initiatve for our web design, we persent a message asking users to contribute to the site and then display links to input airports, airlines, and flights into our database utilizng a navbar.
+ChatGPT: we were running into errors with formatting our navigation bar correctly, so we pasted that section of code and asked chat GPT to help resolve it so it looked like we wanted.
 * VIVEK SRIRAM and TYLER MCCOY worked on this page
   
 ### 2 - Delay Finder Informational Page (**_VIVEK SRIRAM_**)
