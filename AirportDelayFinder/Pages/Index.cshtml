@@ -21,12 +21,41 @@
      We are seeking to create a tool that allows users to input their own data/experiences regarding Airlines, Airports, and specific Flights in order to create a "open-source" platform that will help users anticipate potential delays and make flight selections based on our ratings.
     <br />
     <br />
+  
+    <style>
+        /* Style for the navigation bar */
+        .navbar {
+            background-color: black;
+            padding: 10px 0;
+        }
+
+            /* Style for the list items */
+            .navbar li {
+                display: inline;
+                margin-right: 10px; /* Space between options */
+            }
+
+            /* Style for the links */
+            .navbar a {
+                color: white;
+                text-decoration: none;
+            }
+
+            /* Style for the dividers */
+            .navbar li:not(:last-child)::after {
+                content: "|";
+                margin-left: 10px;
+                color: white;
+            }
+    </style>
+
     <h2 style="color: black;">Want to Contribute to the data in DelayFinder?</h2>
-    <ul>
+    <ul class="navbar">
         <li><a href="/AirlineCRUD">Add Airline Info Here!</a></li>
         <li><a href="/AirportCRUD">Add Airport Info Here!</a></li>
         <li><a href="/FlightCRUD">Add Flight Info Here!</a></li>
     </ul>
+
 
 
     <br />
