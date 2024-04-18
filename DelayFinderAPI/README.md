@@ -63,8 +63,10 @@ returns a list of airlines, which contain the following attributes:
  public string AirlineRating 
  
  public string AirlineDelayRating 
-
-## /api/Airports/{AirportID} - **_NOAH ALBERTI & VIVEK SRIRAM_**
+ 
+### **CHAT GPT PROMPT USE**
+Used chatgpt to help iron out 500 errors with issues in controller and services
+## /api/Airports/{AirportID} - **_NOAH ALBERTI_**
 ### **Does**?: 
 
 retrieves the information about an airport
@@ -88,7 +90,7 @@ public string AirportAvgYearlyPassengers
 
 public string AirportDestinationCount
 
-## /api/airline/ - **_NOAH ALBERTI & VIVEK SRIRAM_**
+## /api/airline/ - **_NOAH ALBERTI_**
 ### **Does**?: 
 
 allows for post of a new airline into system
@@ -112,8 +114,9 @@ after user enters attributes, new airline can be added to db
 ### **CHAT GPT PROMPT USE**
 
 convert sqlserver sp code into aspnet
+asked chatgpt to find reason for 500 error by pasting code
 
-## /api/Airports/ - **_TYLER MCCOY & VIVEK SRIRAM_**
+## /api/Airports/ - **_TYLER MCCOY_**
 ### **Does**?: 
 
 allows for post of a new airport into system
