@@ -22,9 +22,9 @@ Airline Post Page {USER CREATED API INTEGRATED} - allows the user to post inform
 Airport Post Page {USER CREATED API INTEGRATED} - allows the user to post information about an airport to the database/site, integrating the POST airports API. Utilized CRUD to allow for incorporation into site.
 * VIVEK SRIRAM worked on this page
   
-### 6
+### 6 (Page concept for future development, since all APIs were not created into razor pages...)
 
-General weather advisory information page {EXTERNAL API INTEGRATED}- This page was initially intended to include APIs for searchDelay and delay-rating-greater-than, allowing users to search for specific metrics about airline delays. However, we faced greater than expected challenges in incorporating the 'search bar' feature into these pages. Thus, these APIs our not yet integrated, and will be part of our future vision to develop the web application if funding is secured. Instead this page houses our external api integration, a searchable weather api.
+General weather advisory information page {FUTURE PLAN FOR USER CREATED & EXTERNAL API INTEGRATION}- This page was initially intended to include APIs for searchDelay and delay-rating-greater-than, allowing users to search for specific metrics about airline delays. However, we faced greater than expected challenges in incorporating the 'search bar' feature into these pages. Thus, these APIs our not yet integrated, and will be part of our future vision to develop the web application if funding is secured along with external weather radar api integration
 * VIVEK SRIRAM worked on this page
 
 ### ACCESS API README FROM MAIN README
