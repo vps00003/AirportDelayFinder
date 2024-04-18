@@ -1,4 +1,4 @@
-# **Razor Page Descriptions**
+# **Web & Razor Page Descriptions**
 
 ## Pages
 
