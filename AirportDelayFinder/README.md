@@ -3,11 +3,11 @@
 ## Pages
 
 ### 1 - Home Page (**_VIVEK SRIRAM_**)
-welcomes the user to the site and gives a brief overview of the purpose of the web app
+Welcomes the user to the site and gives a brief overview of the purpose of the web app. Incorporates a novel css feature by way of a 'typewriter' style welcome banner that rolls across the screen. Includes some images and charts to fill some space and give the user other content to look at.
 * VIVEK SRIRAM worked on this page
   
 ### 2 - Delay Finder Informational Page (**_VIVEK SRIRAM_**)
-provides background information about main causes of weather related flight delay and potential regions where delays are more likely
+Provides background information about main causes of weather related flight delay and potential regions where delays are more likely. Includes the rudamentary outline for what my idea for th
 * VIVEK SRIRAM worked on this page
 
 ### 3 Airline Post Page {USER CREATED API INTEGRATED BY **_VIVEK SRIRAM_**}
